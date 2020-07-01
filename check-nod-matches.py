@@ -16,7 +16,7 @@ import domain
 #########################################################			
 logging.basicConfig(handlers = [logging.FileHandler('check-node-match.log'), logging.StreamHandler()],level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-nod_logs = 'your_file.csv'
+nod_logs = 'security-activity_security-events.csv'
 tide_apikey = ''
 use_already_downloaded_IOC_files = True
 
