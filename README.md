@@ -19,8 +19,7 @@ example output:
 2020-07-01 10:22:14,430 - root - INFO - UncategorizedThreat_Generic                         winsecurity4.fr                                     ['149.202.151.198']                               
 2020-07-01 10:22:14,430 - root - INFO - UncategorizedThreat_Generic                         hanginthere7.live                                                                                     
 2020-07-01 10:22:14,430 - root - INFO - MalwareC2_Spyware                                   prebid-domain.com                                   81.17.18.197                                      
-2020-07-01 10:22:14,431 - root - INFO - Policy_LookalikeDomains                             darknetflix.io                                      ['143.204.222.45', '143.204.222.23', '143.204.222.73', '143.204.222.71']
-
+2020-07-01 10:22:14,431 - root - INFO - Policy_LookalikeDomains                             darknetflix.io                                      ['143.204.222.45', '143.204.222.23', '143.204.222.73', '143.204.222.71']   
 2020-07-01 10:22:14,431 - root - INFO - MalwareC2_Generic                                   slash.mg                                            164.132.235.17                                    
 2020-07-01 10:22:14,431 - root - INFO - MalwareC2_Mobile                                    pixna.fr                                            213.186.33.5                                      
 2020-07-01 10:22:14,432 - root - INFO - UncategorizedThreat_Generic                         whitepolicy5.live                                                                                     
