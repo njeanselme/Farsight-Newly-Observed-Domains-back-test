@@ -4,15 +4,12 @@ To demonstrate the value of Farsight Newly Observed Domains, a good way is to ba
 It is what this code does, simply provide a csv file with Query column
 or Go to csp.infoblox.com > Security Activity > Search "feed=Far*" > Export security-activity_security-events.csv file, then the code will:
 - download TIDE domains and IPs
-- deduplicate NOD domains and add IPs to the list of IOCs
-- extract l2 domains and add IPs to the list of IOCs
+- deduplicate NOD domains and add it to the list of IOCs
+- extract l2 domains and add it to the list of IOCs
 - resolve all domains and add IPs to the list of IOCs
 - test the list of IOCs against TIDE IPs and domains
-- generate a report
+- generate a report like this:
 
-
-
-example output:
 2020-07-01 10:22:14,428 - root - INFO - IOCs in Farsight Newly Observed Domains matches and in TIDE: 25
 2020-07-01 10:22:14,428 - root - INFO - -- Description --                                   -- host --                                          -- ip --                                          
 2020-07-01 10:22:14,429 - root - INFO - UncategorizedThreat_Generic                         whitepolicy12.live                                                                                    
