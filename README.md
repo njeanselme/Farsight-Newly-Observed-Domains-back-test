@@ -1,13 +1,16 @@
 # Farsight-Newly-Observed-Domains-back-test
 To demonstrate the value of Farsight Newly Observed Domains, a good way is to back test all your Farsight NOD hits and check domains and IPs against TIDE 7 days after.
 
-It is what this code does, simply provide a csv file with Query column (can be csp.infoblox.com security-activity_security-events.csv file), then the code will:
+It is what this code does, simply provide a csv file with Query column
+or Go to csp.infoblox.com > Security Activity > Search "feed=Far*" > Export security-activity_security-events.csv file, then the code will:
 - download TIDE domains and IPs
 - deduplicate NOD domains and add IPs to the list of IOCs
 - extract l2 domains and add IPs to the list of IOCs
 - resolve all domains and add IPs to the list of IOCs
 - test the list of IOCs against TIDE IPs and domains
 - generate a report
+
+
 
 example output:
 2020-07-01 10:22:14,428 - root - INFO - IOCs in Farsight Newly Observed Domains matches and in TIDE: 25
